@@ -1,8 +1,8 @@
 {
-  "brandText":"Learn Smart. Achieve More",
+  "brandText": "Learn Smart. Achieve More",
   "logoSrc": "assets/logo.png",
-  "universityName": "ISU / Facult of Medicine",
-  "testTitle": "CVS-Histology Quiz \u2014 Quiz",
+  "universityName": "ISU / Faculty of Medicine",
+  "testTitle": "CVS-Histology Quiz — Quiz",
   "secondsPerQuestion": 90,
   "shuffleQuestions": true,
   "shuffleOptions": true

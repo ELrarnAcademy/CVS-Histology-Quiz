@@ -165,24 +165,36 @@ const modalTimeUsed=document.getElementById('modal-time-used');
 const closeBtn=document.getElementById('close-btn');
 const restartBtn=document.getElementById('restart-btn');
 
+async function fetchFirst(paths){
+  const cacheBust = `?v=${Date.now()}`;
+  let lastErr;
+  for (const p of paths){
+    try{
+      const res = await fetch(p + cacheBust, { cache: 'no-store' });
+      if (res.ok) return res;
+      lastErr = new Error(`${p} -> ${res.status}`);
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error('Fetch failed');
+}
+
 async function loadAll(){
   try{
-    const cacheBust = `?v=${Date.now()}`;
     const [cfgResp, qResp] = await Promise.all([
-      fetch('config.json'+cacheBust, {cache:'no-cache'}),
-      fetch('questions.json'+cacheBust, {cache:'no-cache'})
+      fetchFirst(['config.json','assets/config.json']),
+      fetchFirst(['questions.json','assets/questions.json'])
     ]);
-    if(!cfgResp.ok) throw new Error('config.json not found');
-    if(!qResp.ok) throw new Error('questions.json not found');
     const config = await cfgResp.json();
     const questions = await qResp.json();
 
     state.config = config;
-    logoEl.src = config.logoSrc || 'assets/easylearn-logo.svg';
+    // brand
+    logoEl.src = config.logoSrc || 'assets/logo.png';
     brandTextEl.textContent = config.brandText ?? 'EASYLEARN';
     uniEl.textContent = config.universityName ?? 'University / Institution Name';
     titleEl.textContent = config.testTitle ?? 'Quiz Title';
 
+    // questions
     let qs = Array.isArray(questions) ? questions : (questions.items || []);
     if(config.shuffleQuestions) qs = shuffle(qs);
     if(config.shuffleOptions) qs = qs.map(q=>({...q, options: shuffle(q.options)}));
@@ -199,7 +211,7 @@ async function loadAll(){
     timeLeftEl.textContent = formatHMS(state.secondsLeft);
   }catch(e){
     console.error(e);
-    document.body.insertAdjacentHTML('afterbegin', `<div class="max-w-3xl mx-auto mb-4"><div class="card p-4 border border-red-300 bg-red-50 text-red-700"><p class="font-bold">Error loading quiz files.</p><p class="text-sm mt-1">Ensure <code>config.json</code> and <code>questions.json</code> are in the same branch and folder as <code>index.html</code> on GitHub Pages.</p></div></div>`);
+    document.body.insertAdjacentHTML('afterbegin', `<div class="max-w-3xl mx-auto mb-4"><div class="card p-4 border border-red-300 bg-red-50 text-red-700"><p class="font-bold">Error loading quiz files.</p><p class="text-sm mt-1">Ensure <code>config.json</code> and <code>questions.json</code> are in the same branch and folder as <code>index.html</code> or inside <code>assets/</code> on GitHub Pages.</p></div></div>`);
   }
 }
 
