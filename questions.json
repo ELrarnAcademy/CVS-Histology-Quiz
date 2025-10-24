@@ -1,0 +1,167 @@
+[
+  {
+    "q": "The three concentric layers (tunics) found in most blood vessels are:",
+    "options": [
+      "Endocardium, Myocardium, Epicardium",
+      "Tunica Interna, Tunica Media, Tunica Externa",
+      "Tunica Intima, Tunica Media, Tunica Adventitia",
+      "Adventitia, Intima, Endothelium"
+    ],
+    "answer": "Tunica Intima, Tunica Media, Tunica Adventitia",
+    [cite_start]"explanation": "The common architectural plan for blood vessels consists of three layers: Tunica Intima (innermost), Tunica Media (middle), and Tunica Externa, which is also called the Adventitia[cite: 25, 30, 31, 32]. [cite_start]The layers of the heart (A) are analogous to these tunics[cite: 102]."
+  },
+  {
+    "q": "Which layer of a blood vessel is primarily composed of simple squamous endothelium and a basal lamina, and is separated from the middle layer by the internal elastic membrane?",
+    "options": [
+      "Tunica Media",
+      "Tunica Externa (Adventitia)",
+      "Tunica Intima",
+      "Subendothelial Layer"
+    ],
+    "answer": "Tunica Intima",
+    "explanation": "The Tunica Intima is the innermost layer. [cite_start]It consists of the single layer of simple squamous endothelium on a basal lamina and is separated from the media by the fenestrated sheet of elastin known as the Internal Elastic Membrane[cite: 27, 44, 51, 52, 54]."
+  },
+  {
+    "q": "A patient presents with a severe hemorrhage following trauma. Which characteristic of the venous system helps the body temporarily manage blood loss and maintain central pressure?",
+    "options": [
+      "The presence of numerous valves to prevent backflow.",
+      "The prominent tunica externa that resists physical wall strain.",
+      "The venous system serves as a blood reservoir, containing approximately 70% of total blood volume.",
+      "The thick tunica media allowing for powerful vasoconstriction."
+    ],
+    "answer": "The venous system serves as a blood reservoir, containing approximately 70% of total blood volume.",
+    [cite_start]"explanation": "The venous system is a blood reservoir (capacitance vessels), containing approximately 70% of the total blood volume[cite: 81, 83]. This large volume capacity allows the body to rapidly mobilize blood to maintain cardiac output and pressure during blood loss."
+  },
+  {
+    "q": "Which type of capillary is characterized by the presence of circular fenestrations (pores) that penetrate the endothelial cells, making them essential for rapid exchange of water and small solutes, as seen in the kidney glomeruli?",
+    "options": [
+      "Continuous Capillaries",
+      "Discontinuous Capillaries (Sinusoids)",
+      "Muscular Capillaries",
+      "Fenestrated Capillaries"
+    ],
+    "answer": "Fenestrated Capillaries",
+    [cite_start]"explanation": "Fenestrated Capillaries are characterized by circular fenestrations that penetrate the endothelial cells[cite: 72]. [cite_start]This allows for the rapid exchange of water and small solutes, making them essential in organs like the kidney glomeruli for filtration[cite: 73, 74, 146]."
+  },
+  {
+    "q": "Which of the following is NOT a characteristic of veins compared to arteries?",
+    "options": [
+      "Thinner walls relative to lumen diameter",
+      "Operate under much lower pressure",
+      "Prominent tunica media",
+      "Serve as a blood reservoir (capacitance vessels)"
+    ],
+    "answer": "Prominent tunica media",
+    [cite_start]"explanation": "The Tunica Media is much thicker in arteries[cite: 29, 57, 59]. [cite_start]Veins have thinner walls, larger lumens, and operate under much lower pressure[cite: 80, 83, 143]. [cite_start]They serve as a blood reservoir[cite: 81, 83]."
+  },
+  {
+    "q": "The primary pacemaker of the heart is the:",
+    "options": [
+      "Atrioventricular (AV) Node",
+      "Bundle of His",
+      "Purkinje Fibers",
+      "Sinoatrial (SA) Node"
+    ],
+    "answer": "Sinoatrial (SA) Node",
+    [cite_start]"explanation": "The Sinoatrial (SA) Node is the primary pacemaker of the heart, spontaneously generating impulses at 60-100 beats per minute[cite: 119, 120]."
+  },
+  {
+    "q": "A pathologist observes a blood vessel with an extremely thick Tunica Media, which is much thicker than the lumen diameter, and prominent internal and external elastic membranes. This is most characteristic of a vessel whose primary role is regulating peripheral resistance, which is:",
+    "options": [
+      "A large vein",
+      "An elastic artery",
+      "A muscular artery (or arteriole)",
+      "A capillary"
+    ],
+    "answer": "A muscular artery (or arteriole)",
+    [cite_start]"explanation": "Muscular Arteries (Distributing Vessels) and Arterioles (Resistance Vessels) have a thick Tunica Media relative to the lumen[cite: 57, 59]. [cite_start]This smooth muscle layer is responsible for regulating vessel diameter and controlling peripheral resistance and blood pressure[cite: 66, 141]."
+  },
+  {
+    "q": "The layers of the heart wall, from innermost to outermost, are:",
+    "options": [
+      "Epicardium, Myocardium, Endocardium",
+      "Endocardium, Myocardium, Epicardium",
+      "Tunica Intima, Tunica Media, Tunica Externa",
+      "Myocardium, Epicardium, Endocardium"
+    ],
+    "answer": "Endocardium, Myocardium, Epicardium",
+    [cite_start]"explanation": "The heart wall has three layers, from innermost to outermost: the Endocardium (lining the chambers), the Myocardium (the muscular middle layer), and the Epicardium (the outermost layer, or visceral pericardium)[cite: 101]."
+  },
+  {
+    "q": "What is the histological correlate of the blood-brain barrier, which allows for highly selective permeability in the central nervous system?",
+    "options": [
+      "Discontinuous capillaries with large gaps.",
+      "Fenestrated capillaries with pores.",
+      "Continuous capillaries characterized by an uninterrupted endothelial lining and tight junctions.",
+      "Postcapillary venules with no smooth muscle present."
+    ],
+    "answer": "Continuous capillaries characterized by an uninterrupted endothelial lining and tight junctions.",
+    [cite_start]"explanation": "Continuous Capillaries are characterized by an uninterrupted endothelial lining [cite: 71] [cite_start]and are found in the nervous tissue[cite: 70]. [cite_start]This structure provides selective permeability and is particularly important in the central nervous system where it forms the blood-brain barrier[cite: 71, 146]."
+  },
+  {
+    "q": "What specialized function is performed by the Atrioventricular (AV) Node in the cardiac conduction system?",
+    "options": [
+      "Rapidly distributing impulses throughout the ventricular myocardium.",
+      "Spontaneously generating impulses at 60-100 beats per minute.",
+      "Dividing into the right and left bundle branches.",
+      "Delaying impulse transmission to allow for ventricular filling."
+    ],
+    "answer": "Delaying impulse transmission to allow for ventricular filling.",
+    "explanation": "The Atrioventricular (AV) Node delays impulse transmission from the atria to the ventricles. [cite_start]This brief delay is essential to allow for efficient ventricular filling before the ventricles contract[cite: 122]."
+  },
+  {
+    "q": "Which components of the intercalated discs enable electrical coupling and rapid impulse propagation between cardiac cells, ensuring the heart functions as a coordinated syncytium?",
+    "options": [
+      "Desmosomes",
+      "Fascia Adherens",
+      "Gap Junctions",
+      "Chordae Tendineae"
+    ],
+    "answer": "Gap Junctions",
+    "explanation": "Gap Junctions are located in the lateral portions of the intercalated discs and allow direct ion flow between cells. [cite_start]This electrical coupling is essential for rapid impulse propagation, enabling the heart to function as a coordinated syncytium[cite: 113, 114, 115]."
+  },
+  {
+    "q": "A patient with severe liver cirrhosis exhibits functional changes that disrupt the normal flow of cells and large molecules between the blood and tissue. Which capillary type and structure are most likely affected?",
+    "options": [
+      "Continuous capillaries with their selective permeability.",
+      "Fenestrated capillaries allowing rapid water and solute exchange.",
+      "Discontinuous capillaries (sinusoids) with large gaps and an incomplete basement membrane.",
+      "Postcapillary venules serving as the primary site for leukocyte emigration."
+    ],
+    "answer": "Discontinuous capillaries (sinusoids) with large gaps and an incomplete basement membrane.",
+    [cite_start]"explanation": "The liver contains **Discontinuous Capillaries**, also known as sinusoids[cite: 75, 78]. [cite_start]They are the most permeable type, characterized by large gaps between endothelial cells and an incomplete or absent basement membrane[cite: 76]. [cite_start]This structure is essential for the uptake of nutrients and metabolites by hepatocytes and the extensive exchange of cells/large molecules[cite: 77, 78]."
+  },
+  {
+    "q": "In acute inflammation, leukocytes must move from the bloodstream into the surrounding connective tissue to mount an immune response. Which vessels are the primary sites for this leukocyte emigration?",
+    "options": [
+      "Elastic Arteries",
+      "Large Veins",
+      "Capillaries",
+      "Postcapillary Venules"
+    ],
+    "answer": "Postcapillary Venules",
+    [cite_start]"explanation": "Postcapillary Venules are highly permeable and serve as the primary sites for **leukocyte emigration** from the blood into tissues during inflammation and immune responses[cite: 86, 88]."
+  },
+  {
+    "q": "A surgeon notes that a blood vessel, which shunts blood directly from the arterial to the venous system, is open in the skin of the extremities. This action is most immediately critical for which function?",
+    "options": [
+      "Maintaining consistent blood pressure.",
+      "Minimizing heat loss (heat conservation).",
+      "Maximizing heat release (heat dissipation) for thermoregulation.",
+      "Ensuring tissue perfusion through the capillary bed."
+    ],
+    "answer": "Maximizing heat release (heat dissipation) for thermoregulation.",
+    [cite_start]"explanation": "Arteriovenous anastomoses (AV shunts) are direct connections that bypass the capillary bed[cite: 96]. [cite_start]When these shunts are open (e.g., in the skin of extremities), the increased blood flow to the skin surface is a crucial mechanism for **heat dissipation** and body **thermoregulation**[cite: 97, 98, 99]."
+  },
+  {
+    "q": "A structural defect in which specialized cardiac structure would most directly impair the coordinated (sequential) contraction of the atria and ventricles?",
+    "options": [
+      "Cardiac Fibrous Skeleton, because it electrically insulates the atria from the ventricles and guides impulse transmission via the AV bundle.",
+      "The Myocardium, because it is the thickest layer responsible for contractile function.",
+      "The Spongiosa Layer of the heart valves, because it acts as a shock absorber.",
+      "The Vasa Vasorum, because it supplies the wall nutrition of the great vessels."
+    ],
+    "answer": "Cardiac Fibrous Skeleton, because it electrically insulates the atria from the ventricles and guides impulse transmission via the AV bundle.",
+    [cite_start]"explanation": "The Cardiac Fibrous Skeleton acts as a dense connective tissue framework that **electrically insulates the atria from the ventricles**[cite: 111]. [cite_start]This ensures that the only electrical connection between the chambers is through the AV node and Bundle of His, which is essential for coordinated (sequential) contraction[cite: 111, 122, 123]."
+  }
+]
